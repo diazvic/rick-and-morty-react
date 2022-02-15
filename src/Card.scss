@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card {
+	background-color: #3c3e44;
+	color: white;
+	width: 380px;
+	height: 450px;
+	margin: 15px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	width: 60%;
+}
+.busqueda {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+.verde {
+	color: green;
+}
+.rojo {
+	color: red;
+}
