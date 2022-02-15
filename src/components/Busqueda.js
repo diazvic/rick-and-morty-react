@@ -5,7 +5,9 @@ const Busqueda = ({ handleOnChange, handleClick }) => {
 				Busca tu personaje:
 				<input type="text" onChange={handleOnChange}></input>
 			</label>
-			<button onClick={handleClick}>Buscar</button>
+			<button className="boton-busqueda" onClick={handleClick}>
+				Buscar
+			</button>
 		</div>
 	);
 };
