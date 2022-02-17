@@ -2,7 +2,7 @@ const Busqueda = ({ handleOnChange, handleClick }) => {
 	return (
 		<div>
 			<label>
-				Busca tu personaje:
+				Iniciar busqueda:
 				<input type="text" onChange={handleOnChange}></input>
 			</label>
 			<button className="boton-busqueda" onClick={handleClick}>
