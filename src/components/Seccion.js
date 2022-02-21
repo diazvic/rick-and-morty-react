@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Card from "./Card";
 import Busqueda from "./Busqueda";
+import { Link } from "react-router-dom";
 const Seccion = () => {
 	const [valorDelInput, setValorDelInput] = useState("");
 	const [buscar, setBuscar] = useState("");
@@ -30,13 +31,18 @@ const Seccion = () => {
 			<div className="container">
 				{busqueda.map((elemento) => (
 					<div key={elemento.id}>
-						<Card
-							name={elemento.name}
-							img={elemento.image}
-							gender={elemento.gender}
-							specie={elemento.species}
-							status={elemento.status}
-						/>
+						<Link
+							to={`/personajes/${elemento.id}`}
+							style={{ textDecoration: "none" }}
+						>
+							<Card
+								name={elemento.name}
+								img={elemento.image}
+								gender={elemento.gender}
+								specie={elemento.species}
+								status={elemento.status}
+							/>
+						</Link>
 					</div>
 				))}
 			</div>

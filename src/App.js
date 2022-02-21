@@ -13,11 +13,7 @@ const App = () => {
 	return (
 		<div>
 			<BrowserRouter>
-				<Nav
-				// personajes={<Link to="/">Personajes</Link>}
-				// ubicaciones={<Link to="/">Ubicaciones</Link>}
-				// episodios={<Link to="/">Episodios</Link>}
-				/>
+				<Nav />
 				<Routes>
 					<Route path="/" element={<Seccion />} />
 					<Route path="/ubicaciones" element={<Ubicaciones />} />
@@ -35,28 +31,3 @@ const App = () => {
 };
 
 export default App;
-
-// import Blog from "./components/Blog";
-// import Contacto from "./components/Contacto";
-// import Home from "./components/Home";
-// const App = () => {
-// 	return (
-// 		<div>
-// 			<BrowserRouter>
-// 				<nav>
-// 					<Link to="/">Home</Link>
-// 					<Link to="/blog">Blog</Link>
-// 					<Link to="/contacto">Contacto</Link>
-// 				</nav>
-
-// 				<Routes>
-// 					<Route path="/" element={<Home />} /> personajes ACA
-// 					<Route path="/blog" element={<Blog />} />
-// 					<Route path="/contacto" element={<Contacto />} />
-// 				</Routes>
-// 			</BrowserRouter>
-// 		</div>
-// 	);
-// };
-
-// export default App;
