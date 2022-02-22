@@ -5,10 +5,17 @@ const Nav = () => {
 			<h2 className="titulo-nav">Rick and Morty</h2>
 			<ul className="contenedor-nav">
 				<li className="link-nav">
-					<Link to="/">Personajes</Link>
+					<Link to="/" style={{ textDecoration: "none", color: "#07a74c" }}>
+						Personajes
+					</Link>
 				</li>
 				<li className="link-nav">
-					<Link to="/ubicaciones">Ubicaciones</Link>
+					<Link
+						to="/ubicaciones"
+						style={{ textDecoration: "none", color: "#07a74c" }}
+					>
+						Ubicaciones
+					</Link>
 				</li>
 				<li className="link-nav">
 					<Link

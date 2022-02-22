@@ -5,9 +5,9 @@ import Nav from "./components/Nav";
 import Seccion from "./components/Seccion";
 import Footer from "./components/Footer";
 import Ubicaciones from "./components/Ubicaciones";
-import Episodios from "./components/Episodios";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import DetalleTarjeta from "./components/DetalleTarjeta";
+import Episodios from "./components/Episodios";
 
 const App = () => {
 	return (
