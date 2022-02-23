@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { HiMenu } from "react-icons/hi";
+
 const Nav = () => {
 	return (
 		<nav className="nav">
@@ -26,6 +28,9 @@ const Nav = () => {
 					</Link>
 				</li>
 			</ul>
+			<div className="contenedor-hamburguesa">
+				<HiMenu className="menu-hamburguesa"></HiMenu>
+			</div>
 		</nav>
 	);
 };

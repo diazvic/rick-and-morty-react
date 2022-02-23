@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+	.contenedor-nav {
+		flex-flow: column nowrap;
+		background-color: #3b3e43;
+		position: fixed;
+		// top: 0;
+		top: 50px;
+		right: 0;
+		height: 100vh;
+		width: 300px;
+		padding-top: 3.5rem;
+	}
+	.menu-hamburguesa {
+		display: flex;
+		color: white;
+		font-size: 40px;
+	}
+	.contenedor-hamburguesa {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
