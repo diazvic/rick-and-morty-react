@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
+import { useState } from "react";
 
 const Nav = () => {
+	const [mostrarMenu, setMostrarMenu] = useState(false);
+
 	return (
 		<nav className="nav">
 			<h2 className="titulo-nav">Rick and Morty</h2>
@@ -29,7 +32,10 @@ const Nav = () => {
 				</li>
 			</ul>
 			<div className="contenedor-hamburguesa">
-				<HiMenu className="menu-hamburguesa"></HiMenu>
+				<HiMenu
+					onClick={() => setMostrarMenu(true)}
+					className="menu-hamburguesa"
+				></HiMenu>
 			</div>
 		</nav>
 	);
