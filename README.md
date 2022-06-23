@@ -3,9 +3,9 @@
 📌 Información sobre el proyecto:
 
 - Se puede visualizar tres secciones:
-  . Personajes
-  . Ubicaciones
-  . Episodios
+    - Personajes
+    - Ubicaciones
+    - Episodios
 - Diseño responsive en proceso.
 - Fue realizado con la api de Rick and Morty https://rickandmortyapi.com/documentation
 
